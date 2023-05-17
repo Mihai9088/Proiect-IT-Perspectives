@@ -11,7 +11,7 @@ const Tile = (props) => {
   } else {
     return (
       <div className={`${classes.tiles} ${classes['white-tiles']}`}>
-      <img src={props.image}  />
+      <img className={classes.chessImage} src={props.image}  />
       </div>
     );
   }
