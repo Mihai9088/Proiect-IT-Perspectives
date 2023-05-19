@@ -5,13 +5,13 @@ const Tile = (props) => {
   if (props.number % 2 === 0) {
     return (
       <div className={`${classes.tiles} ${classes['black-tiles']}`}>
-    <img className={classes.chessImage} src={props.image}  />
+       {props.image !== undefined && <div className={classes.Pieces}  style={{backgroundImage:`url(${props.image})`}}></div>}
       </div>
     );
   } else {
     return (
       <div className={`${classes.tiles} ${classes['white-tiles']}`}>
-      <img className={classes.chessImage} src={props.image}  />
+     { props.image !== undefined && <div className={classes.Pieces} style={{backgroundImage:`url(${props.image})`}}></div>}
       </div>
     );
   }

@@ -3,6 +3,8 @@
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    border-right:7px solid	#50515a;
+    border-left:7px solid #50515a;
 
 }
 
