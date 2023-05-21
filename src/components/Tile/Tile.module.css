@@ -1,4 +1,4 @@
-.tiles{
+.tiles {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,32 +6,28 @@
     height: 12.5vh;
 }
 
-.black-tiles{
-background:#acacac;
+.black-tiles {
+    background: #acacac;
 }
-.white-tiles{
+.white-tiles {
     background: #d8d8d8;
-    }
+}
 
-    .chessImage{
-        width: 70px;
-    }
+.chessImage {
+    width: 70px;
+}
 
-    .Pieces{
-        width: 100px;
-        height: 100px;
-        background-position: center;
-        background-size: 75px;
-        background-repeat: no-repeat;
-    }
-     
-    .Pieces:hover{
-        cursor: grab;
-    }
-    .Pieces:active{
-        cursor: grabbing;
-    }
+.Pieces {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: 75px;
+    background-repeat: no-repeat;
+}
 
-
-
-   
+.Pieces:hover {
+    cursor: grab;
+}
+.Pieces:active {
+    cursor: grabbing;
+}
